@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit.woff2') format('woff2'),
+	url('../fonts/Larsseit.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+	url('../fonts/Larsseit-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit-Medium.woff2') format('woff2'),
+	url('../fonts/Larsseit-Medium.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/latoblack.woff2') format('woff2'),
+	url('../fonts/latoblack.woff') format('woff');
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/latobold.woff2') format('woff2'),
+	url('../fonts/latobold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/latoregular.woff2') format('woff2'),
+	url('../fonts/latoregular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+.menu{
+	font-family: 'lato';
+	font-weight: 700;
+}
+
+.vikings h5{
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Larsseit';
+	font-weight: 900;
+}
+
+p{
+font-family: 'Roboto';
+font-weight: 400;
+}
+
+span{
+	color: red;
+}
+
+p.text{
+	color: blueviolet;
+}
+
+div > .link{
+	color: green;
+}
+
+.physic-geography *{
+color: blue;
+}
+
+.vikings > p{
+	color: yellow;
+}
+
+.row + p{
+	color: brown;
+}
+
+.header span{
+	color: gray;
+}
+
+.link{
+	color: red;
+}
+
